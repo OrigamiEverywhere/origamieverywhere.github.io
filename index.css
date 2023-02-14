@@ -1,0 +1,135 @@
+.img {
+    width: 50vw;
+}
+.button {
+    background-color: #ff8000; /* Orange */
+    border: 2px solid #1c1c1c; /* Dark grey */
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vh;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: cursive;
+	width: 50vw;
+	height: 5vh;
+}
+.button:hover {
+    background-color: #cb6804;
+    color: white;
+}
+.button1 {
+    background-color: #ff8000; /* Orange */
+    border: 2px solid #1c1c1c; /* Dark grey */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+}
+.button1:hover {
+    background-color: #cb6804;
+    color: white;
+}
+body {
+    background-color: #1c1c1c;
+    overflow-x: hidden;
+    font-family: cursive;
+}
+.Welcome {
+    color: white;
+    font-size: 5vw;
+	font-size: 4vh;
+	text-align: center;
+}
+.P1 {
+    color: white;
+	margin-left: 2vw;
+	margin-right:2vw;
+	font-size: 2vh;
+}
+.copyright {
+    color: white;
+}
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+main {
+    font-size: 30px;
+}
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+.nav-links a {
+    color: #fff;
+}
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu li:hover {
+    background-color: #363535;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.menu li {
+    padding: 5px 14px;
+}
+/* DROPDOWN MENU */
+.services {
+    position: relative;
+}
+.dropdown {
+    background-color: #2e2e2e;
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+.dropdown li + li {
+    margin-top: 10px;
+}
+.dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+.dropdown li:hover {
+    background-color: #2e2e2e;
+}
+.services:hover .dropdown {
+    display: block;
+}
+.Div1 {
+    width: 50vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
